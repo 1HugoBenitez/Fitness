@@ -1,17 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+//const element = document.createElement('h1')
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+//element.innerText = 'Hello React..'
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//const container = document.getElementById('root')
+
+//container.appendChild(element)
+
+//https://firebasestorage.googleapis.com/v0/b/tutoriales-e4830.appspot.com/o/exercise.png?alt=media&token=b9c4b236-16a9-4a56-bba2-90c9660a0f06
+
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Exercises from './pages/Exercises'
+import 'bootstrap/dist/css/bootstrap.css'
+
+
+const container = document.getElementById('root')
+
+//ReactDOM. render(__QUE__, __DONDE__)
+
+ReactDOM.render(<Exercises/>, container) 
